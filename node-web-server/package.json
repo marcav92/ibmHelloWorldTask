@@ -1,0 +1,14 @@
+{
+    "name": "ibm-web-server",
+    "version": "1.0.0",
+    "description": "this is a web server to serve a react application",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Marco Acuna",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

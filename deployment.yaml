@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ibm-hello-world-deployment
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ibm-hello-world
+  template:
+    metadata:
+      labels:
+        app: ibm-hello-world
+    spec:
+      containers:
+        - name: back-end
+          image: 097815753467.dkr.ecr.us-east-1.amazonaws.com/ibm-hello-world:latest
+          ports:
+            - containerPort: 5000
