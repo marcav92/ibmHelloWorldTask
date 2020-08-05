@@ -2,7 +2,7 @@
 # Build, push, deploy, and run post-deploy tasks for myapp.
 
 # Define the version to be deployed (e.g. a git hash or semver tag).
-version="1.0.8"
+version="1.0.9"
 registry="097815753467.dkr.ecr.us-east-1.amazonaws.com"
 appname="ibm-hello-world"
 

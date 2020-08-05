@@ -4,13 +4,7 @@ FROM node:10
 WORKDIR /usr/src/app
 
 
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-
-
-
-# Bundle app source
+# Copy Source files
 COPY ./node-web-server ./node-web-server
 COPY ./ibm-hello-world/build ./build
 
